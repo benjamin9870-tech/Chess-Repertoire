@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 20px;
+}
+body {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+h2 {
+  color: #ff0000;
+}
+h1 {
+  color: #ff0000;
+}
+
+/* Vorm3 */
+.grid-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 6vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.grid-MainTitles1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 8vh;
+  text-align: center;
+  margin-bottom: 3vh;
+  gap: 2vw;
+  font-size: 1.7rem;
+  border-bottom: purple solid 5px;
+}
+.Titel {
+  font-size: 2rem;
+  color: blue;
+}
+
+.Main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 12vh;
+  margin-bottom: 25vh;
+  text-align: center;
+  gap: 2vw;
+  font-size: 1rem;
+}
+
+
+.MeerInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 6vh;
+  text-align: center;
+  gap: 2vw;
+  font-size: 1.6rem;
+  color: red;
+}
+
+.MITekst {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 12vh;
+  text-align: center;
+  gap: 2vw;
+  font-size: 1rem;
+}
+
+.bron {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 6vh;
+  text-align: center;
+  gap: 2vw;
+  font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 6vh;
+  text-align: center;
+  gap: 2vw;
+  font-size: 1.6rem;
+  margin-bottom: 5vh;
+}
+
+.body1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  height: 12vh;
+  text-align: center;
+  gap: 2vw;
+  font-size: 1rem;
+  margin-bottom: 2px;
+  border: solid 1px black;
+}
